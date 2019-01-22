@@ -33,7 +33,7 @@
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.Salir = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -78,21 +78,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.ButtonGeneral);
             // 
-            // Salir
+            // btnSalir
             // 
-            this.Salir.Location = new System.Drawing.Point(78, 61);
-            this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(98, 33);
-            this.Salir.TabIndex = 5;
-            this.Salir.Text = "Salir";
-            this.Salir.UseVisualStyleBackColor = true;
+            this.btnSalir.Location = new System.Drawing.Point(78, 61);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(98, 33);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(313, 106);
-            this.Controls.Add(this.Salir);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.label2);
@@ -112,6 +112,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button Salir;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
